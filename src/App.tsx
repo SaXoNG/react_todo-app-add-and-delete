@@ -71,7 +71,7 @@ export const App: React.FC = () => {
           }, 3000);
         }
       });
-  }, []);
+  }, [errorMessage]);
 
   if (!USER_ID) {
     return <UserWarning />;
