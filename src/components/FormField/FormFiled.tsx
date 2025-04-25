@@ -49,7 +49,7 @@ export const FormField: React.FC<Props> = ({
     if (elementFocus.current) {
       elementFocus.current.focus();
     }
-  }, [elementFocus]);
+  }, [diabled, elementFocus]);
 
   const addTodo = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
